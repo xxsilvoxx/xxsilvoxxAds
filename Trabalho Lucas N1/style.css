@@ -169,19 +169,27 @@ select{
 }
 
 .planos{
-    padding: 10px;
-    padding-right: 2%;
-    width: 40%;
+    /* padding: 10px;
+    padding-right: 2%; */
+    width: 70%;
+    height: 400px;
     margin: auto;
     margin-top: 30px;
-    border-width: 2px;
-    border-color: black;
-    border-style: solid;   
+    border: 2px solid black;
+    background-position: center;
+    background-size: cover;
+    
 }
 
 .planos p{
-    margin: auto;
+    color: #ffffff;
+    background: #00000083;
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 15pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
+    font-weight: 500;
 }
 
 .cliente{
@@ -242,4 +250,37 @@ select{
     border-color: rgb(10, 97, 10);
     transform: scale(1.3);
     background: #a0a0a0ce;
+}
+
+li h2 p {
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    color: #fa8072;
+}
+
+.plano {
+    padding: 20px;
+}
+
+.plano-carro {
+    background-image: url('./imagens/sgCarro.jpg');
+}
+
+.plano-moto {
+    background-image: url('./imagens/sgMoto.webp');
+}
+
+.plano-caminhao {
+    background-image: url('./imagens/sgTruck.png');
+}
+
+.contatos h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+    width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    
 }
