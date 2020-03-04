@@ -187,13 +187,14 @@ select{
 .cliente{
     padding: 10px;
     image-rendering: auto;
-    width: 29%;
+    width: 45%;
     margin: auto;
     margin-top: 30px;
     border-width: 2px;
     border-color: black;
     border-style: solid;   
     object-fit: cover;
+    transition: all 1s;
 }
 
 .cliente p{
@@ -206,4 +207,39 @@ select{
     width: 300px;
     height: 300px;
     
+}
+
+.fundo-cliente {
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+}
+
+.cliente-1 {
+    background-image: url('./imagens/1.jpg');
+}
+
+.cliente-2 {
+    background-image: url('./imagens/2.jpg');
+}
+
+.cliente-3 {
+    background-image: url('./imagens/3.png');
+}
+
+.cliente-4 {
+    background-image: url('./imagens/4.jpg');
+}
+
+.cliente-5 {
+    background-image: url('./imagens/5.jpg');
+}
+
+.cliente:hover {
+    border-radius: 5px;
+    border-color: rgb(10, 97, 10);
+    transform: scale(1.3);
+    background: #a0a0a0ce;
 }
